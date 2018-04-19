@@ -1,0 +1,14 @@
+App Module (tem a logica do sistema)
+- tem mandatoriamente a app component
+- pode usar foto component (mais simples do que usar o module de foto, se é uma feature simples, sem necessidade de reuso)
+
+App Module usa mandatoriamente o module do HttpClientModule (service).
+App Module pode usar o module de Foto - que incorpora o foto component (module é mais util para componentizar features)
+
+Modulos não criam apenas componentes. Podem criar services e outras coisas.
+Services proveem servicos.
+
+Quando vale a pena criar modulo e quando vale a pena criar componente?
+
+Cada modulo fora do sistema deve ser instalado via npm.
+No caso da foto por estar dentro do sistema não precisou ser instalado.
